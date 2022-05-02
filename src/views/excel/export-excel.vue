@@ -83,9 +83,11 @@ export default {
         const filterVal = ['id', 'title', 'author', 'pageviews', 'display_time']
         const list = this.list
         const data = this.formatJson(filterVal, list)
+        // const merges = ['A2:A19']
         excel.export_json_to_excel({
           header: tHeader,
           data,
+          // merges,
           filename: this.filename,
           autoWidth: this.autoWidth,
           bookType: this.bookType

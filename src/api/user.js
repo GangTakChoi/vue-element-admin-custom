@@ -12,6 +12,7 @@ export function getInfo(token) {
   return request({
     url: '/vue-element-admin/user/info',
     method: 'get',
+    headers: { Authorization: `Berear ${token}` },
     params: { token }
   })
 }
