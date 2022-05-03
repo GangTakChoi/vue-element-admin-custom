@@ -1,4 +1,4 @@
-import request from '@/utils/request'
+import request from '@/utils/mock-request'
 
 export function fetchList(query) {
   return request({
