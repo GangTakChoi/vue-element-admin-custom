@@ -1,10 +1,10 @@
 /** When your routing table is too long, you can split it into small modules **/
 
-import Layout from '@/layout'
+import EmptyLayout from '@/views/EmptyLayout'
 
 const tableRouter = {
   path: '/table',
-  component: Layout,
+  component: EmptyLayout,
   redirect: '/table/complex-table',
   name: 'Table',
   meta: {
