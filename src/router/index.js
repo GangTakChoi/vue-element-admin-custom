@@ -126,7 +126,6 @@ export const constantRoutes = [
 ]
 
 export const asyncRoutes = [
-  // thinkAdminRoute,
   {
     path: '/init',
     component: Layout,
